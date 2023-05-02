@@ -4,7 +4,7 @@ admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
 });
 admin.auth().setCustomUserClaims(process.argv[2], {
-  admin: true,
+  role: "admin",
 }).then(() => {
   console.log("SUCCESS\n");
 }).catch(() => {
