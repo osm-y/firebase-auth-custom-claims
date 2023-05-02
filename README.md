@@ -5,3 +5,5 @@ Firebaseの管理画面からAdminSDKの秘密鍵を取得し、プロジェク�
 yarn install
 node claims.js {uid}
 ```
+
+サンプルではroleにadminが設定されます。
